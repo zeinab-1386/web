@@ -1,0 +1,22 @@
+h1{
+    font-size: 28;
+    text-transform: uppercase;
+}
+#job{
+    font-size: 18;
+    font-weight: 800;
+}
+.summary{
+    font-size: 16;
+    line-height: 20px;
+}
+h3{
+    color: #6D6875;
+    font-size: 20;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+footer, header{
+    align-items: center;
+}
