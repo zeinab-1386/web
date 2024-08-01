@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    /* background-color: #cedfdf; */
+}
+
+h1{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#job{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.summary{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h3{
+    color: #91ac9a;
+    font-size: 20px;
+    border-bottom: 1px solid #c9c9bc;
+    padding-bottom: 2px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+}
+
+footer, header{
+    text-align: center;
+    background-color: #a9c3b6;
+}
+
+footer{
+    padding: 2px 10px 2px 10px;
+}
+
+ul{
+    margin: 0px;
+    list-style: none;
+}
+
+header{
+    padding: 2px 0px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+table {
+    border: 2px  solid #91ac9a;
+    background-color: #cedfdf;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid ;
+    padding: 5px;
+}
+
+input :not(submit){
+    border: 1px solid ;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+label{
+    width: 203px;
+    color: #6D6875;
+    font-weight: 900;
+}
+
+input[type="submit"] {
+    background-color: #6D6875;
+    border: 1px solid #222c26;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+img{
+    transition: 1s ease;
+    z-index: 100;
+}
+
+img:hover{
+    transform:  scale(1.1);
+}
