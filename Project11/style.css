@@ -1,0 +1,267 @@
+@keyframes move-left{
+    0%{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes move-right{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+} 
+
+:root{
+    --bg:#a9c3b6; 
+    --bgheder:#91ac9a;
+
+}
+
+@media (max-width:375px) {
+    #nn{
+        display: none;
+    }
+    #summary{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Times New Roman', Times, serif
+}
+
+h1{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#job{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.summary{
+    animation: move-right 1.5s;
+    padding-right: 20px;
+    font-size: 23px;
+    line-height: 20px;
+    width: 500px;
+    line-height: 2;
+    text-align: justify;
+}
+
+h3{
+    padding: 100px;
+    font-size: 40px;
+    border-bottom: 2px solid ;
+    width: 100%;
+    padding-bottom: 2px;
+    text-align: center;
+    align-items: center;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+}
+
+footer, header{
+    text-align: center;
+    background-color: var(--bgheder);
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100hv;
+}
+
+#nn{
+    padding-right: 10px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2px 0px;
+    position:fixed;
+    box-shadow:  #6e8a77 0px 0px 10px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #6D6875;
+}
+
+td{
+    border: 1px solid ;
+    padding: 5px;
+}
+
+input ,textarea{
+    box-shadow: 0px 0px 10px rgb(172, 167, 167);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    justify-content: center;
+    border: 3px;
+    border-radius: 7px;
+
+}
+
+input{
+    height: 30px;
+}
+
+textarea{
+    height: 150px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+label{
+    width: 203px;
+    color: #6D6875;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+input[type="submit"] {
+    background-color: #6D6875;
+    border-radius: 7px;
+    border: 1px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    padding: 5px 25px;
+    box-shadow: 0px 0px 15px #6D6875;
+
+}
+
+#eex{
+    text-align: center;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    animation: move-left 1.5s;
+    transition: 1s ease;
+    border-radius: 15px;
+
+}
+
+img:hover{
+    transform:  scale(1.1);
+
+}
+
+li{
+    padding-left: 15px;
+    list-style: none;
+}
+
+article p{
+    margin-top: 40px;
+}
+ 
+#About{
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+html{
+    background-color: var(--bg);
+}
+
+b {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 26px;
+
+}
+
+progress{
+    background-color: #91ac9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 50%;
+    border:3px solid #6D6875;
+    border-radius: 7px;
+}
+
+#skills{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#expriences{
+
+    padding-left: 50px;
+    padding: 290px 0px;
+    font-size: 26px;
+}
+
+#exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+
+
